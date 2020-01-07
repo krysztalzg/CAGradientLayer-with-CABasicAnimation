@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		AEF98BAB23C4BB3600FE3E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAA23C4BB3600FE3E89 /* AppDelegate.swift */; };
 		AEF98BAD23C4BB3600FE3E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAC23C4BB3600FE3E89 /* SceneDelegate.swift */; };
-		AEF98BAF23C4BB3600FE3E89 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAE23C4BB3600FE3E89 /* FirstViewController.swift */; };
-		AEF98BB123C4BB3600FE3E89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BB023C4BB3600FE3E89 /* SecondViewController.swift */; };
+		AEF98BB123C4BB3600FE3E89 /* SingleGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BB023C4BB3600FE3E89 /* SingleGradientViewController.swift */; };
 		AEF98BB423C4BB3600FE3E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF98BB223C4BB3600FE3E89 /* Main.storyboard */; };
 		AEF98BB623C4BB4200FE3E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF98BB523C4BB4200FE3E89 /* Assets.xcassets */; };
 		AEF98BB923C4BB4200FE3E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF98BB723C4BB4200FE3E89 /* LaunchScreen.storyboard */; };
+		AEF98BC223C4BBAF00FE3E89 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BC123C4BBAF00FE3E89 /* UIColorExtensions.swift */; };
+		AEF98BC423C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BC323C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift */; };
+		AEF98BC623C4BCE100FE3E89 /* AnimatedSingleGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BC523C4BCE100FE3E89 /* AnimatedSingleGradientView.swift */; };
+		AEF98BC823C4BD1000FE3E89 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BC723C4BD1000FE3E89 /* UIViewExtensions.swift */; };
+		AEF98BCA23C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BC923C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift */; };
+		AEF98BCF23C4C14400FE3E89 /* MultipleGradientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BCE23C4C14400FE3E89 /* MultipleGradientsViewController.swift */; };
+		AEF98BD023C4C27C00FE3E89 /* UIKitComponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAE23C4BB3600FE3E89 /* UIKitComponentsViewController.swift */; };
+		AEF98BD223C4C61100FE3E89 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BD123C4C61100FE3E89 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEF98BA723C4BB3600FE3E89 /* GradientsAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientsAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF98BAA23C4BB3600FE3E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF98BAC23C4BB3600FE3E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEF98BAE23C4BB3600FE3E89 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AEF98BB023C4BB3600FE3E89 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AEF98BAE23C4BB3600FE3E89 /* UIKitComponentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitComponentsViewController.swift; sourceTree = "<group>"; };
+		AEF98BB023C4BB3600FE3E89 /* SingleGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGradientViewController.swift; sourceTree = "<group>"; };
 		AEF98BB323C4BB3600FE3E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEF98BB523C4BB4200FE3E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF98BB823C4BB4200FE3E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEF98BBA23C4BB4200FE3E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF98BC123C4BBAF00FE3E89 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		AEF98BC323C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtensions.swift; sourceTree = "<group>"; };
+		AEF98BC523C4BCE100FE3E89 /* AnimatedSingleGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSingleGradientView.swift; sourceTree = "<group>"; };
+		AEF98BC723C4BD1000FE3E89 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		AEF98BC923C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedMultipleGradientsView.swift; sourceTree = "<group>"; };
+		AEF98BCE23C4C14400FE3E89 /* MultipleGradientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGradientsViewController.swift; sourceTree = "<group>"; };
+		AEF98BD123C4C61100FE3E89 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,48 @@
 		AEF98BA923C4BB3600FE3E89 /* GradientsAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				AEF98BC023C4BB5A00FE3E89 /* Extensions */,
+				AEF98BCB23C4BE0600FE3E89 /* Components */,
+				AEF98BAE23C4BB3600FE3E89 /* UIKitComponentsViewController.swift */,
+				AEF98BB023C4BB3600FE3E89 /* SingleGradientViewController.swift */,
+				AEF98BCE23C4C14400FE3E89 /* MultipleGradientsViewController.swift */,
+				AEF98BB223C4BB3600FE3E89 /* Main.storyboard */,
+				AEF98BCD23C4BF5500FE3E89 /* Other */,
+			);
+			path = GradientsAnimations;
+			sourceTree = "<group>";
+		};
+		AEF98BC023C4BB5A00FE3E89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEF98BC123C4BBAF00FE3E89 /* UIColorExtensions.swift */,
+				AEF98BC323C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift */,
+				AEF98BC723C4BD1000FE3E89 /* UIViewExtensions.swift */,
+			);
+			name = Extensions;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AEF98BCB23C4BE0600FE3E89 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AEF98BC523C4BCE100FE3E89 /* AnimatedSingleGradientView.swift */,
+				AEF98BC923C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift */,
+				AEF98BD123C4C61100FE3E89 /* TextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AEF98BCD23C4BF5500FE3E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				AEF98BAA23C4BB3600FE3E89 /* AppDelegate.swift */,
 				AEF98BAC23C4BB3600FE3E89 /* SceneDelegate.swift */,
-				AEF98BAE23C4BB3600FE3E89 /* FirstViewController.swift */,
-				AEF98BB023C4BB3600FE3E89 /* SecondViewController.swift */,
-				AEF98BB223C4BB3600FE3E89 /* Main.storyboard */,
 				AEF98BB523C4BB4200FE3E89 /* Assets.xcassets */,
 				AEF98BB723C4BB4200FE3E89 /* LaunchScreen.storyboard */,
 				AEF98BBA23C4BB4200FE3E89 /* Info.plist */,
 			);
-			path = GradientsAnimations;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +187,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF98BB123C4BB3600FE3E89 /* SecondViewController.swift in Sources */,
-				AEF98BAF23C4BB3600FE3E89 /* FirstViewController.swift in Sources */,
+				AEF98BCA23C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift in Sources */,
+				AEF98BD223C4C61100FE3E89 /* TextField.swift in Sources */,
+				AEF98BC623C4BCE100FE3E89 /* AnimatedSingleGradientView.swift in Sources */,
+				AEF98BCF23C4C14400FE3E89 /* MultipleGradientsViewController.swift in Sources */,
+				AEF98BB123C4BB3600FE3E89 /* SingleGradientViewController.swift in Sources */,
+				AEF98BC823C4BD1000FE3E89 /* UIViewExtensions.swift in Sources */,
+				AEF98BC223C4BBAF00FE3E89 /* UIColorExtensions.swift in Sources */,
+				AEF98BC423C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift in Sources */,
 				AEF98BAB23C4BB3600FE3E89 /* AppDelegate.swift in Sources */,
 				AEF98BAD23C4BB3600FE3E89 /* SceneDelegate.swift in Sources */,
+				AEF98BD023C4C27C00FE3E89 /* UIKitComponentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.netguru.kszczepanski.cagradient.GradientsAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.netguru.kszczepanski.cagradient.GradientsAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

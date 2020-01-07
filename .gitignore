@@ -1,0 +1,53 @@
+# .gitignore
+# Copyright © 2019 Netguru S.A. All rights reserved.
+
+# MacOS boilerplate.
+
+.DS_Store
+.Trashes
+.localized
+
+# Build artifacts.
+
+.build
+DerivedData
+
+# Xcode local files.
+
+xcuserdata
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.o
+*.hmap
+*.ipa
+*.dSYM.zip
+
+# AppCode local files.
+
+.idea
+*.iml
+
+# Dependency managers artifacts.
+
+Pods
+Carthage
+Packages
+
+# Fastlane artifacts.
+
+.fastlane/build
+.fastlane/report.xml
+.fastlane/README.md
+
+# Secrets.
+
+.env.cocoapods
+.env.fastlane
+.private
