@@ -26,8 +26,11 @@
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                     </textField>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NeH-dK-itk" customClass="Slider" customModule="GradientsAnimations" customModuleProvider="target">
+                                        <rect key="frame" x="-2" y="74" width="386" height="31.5"/>
+                                    </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis augue id pretium placerat." textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCv-r3-04H">
-                                        <rect key="frame" x="0.0" y="74" width="382" height="62"/>
+                                        <rect key="frame" x="0.0" y="154.5" width="382" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="0Nn-HM-S6X"/>
                                         </constraints>
@@ -36,7 +39,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmE-Eh-ZZi">
-                                        <rect key="frame" x="0.0" y="186" width="382" height="314"/>
+                                        <rect key="frame" x="0.0" y="304.5" width="382" height="195.5"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="65r-dZ-zxq"/>
@@ -59,6 +62,7 @@
                     <tabBarItem key="tabBarItem" title="UIKit" image="pencil.and.ellipsis.rectangle" catalog="system" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="uiLabel" destination="MCv-r3-04H" id="7qO-8a-2Qc"/>
+                        <outlet property="uiSlider" destination="NeH-dK-itk" id="3H0-U3-VFF"/>
                         <outlet property="uiTextField" destination="S8f-wp-fL0" id="haM-8S-dUH"/>
                         <outlet property="uiView" destination="TmE-Eh-ZZi" id="kwg-kv-mvG"/>
                     </connections>
@@ -95,6 +99,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1517" y="0.0"/>
+        </scene>
+        <!--Start-->
+        <scene sceneID="chI-Oh-A9X">
+            <objects>
+                <viewController id="ylB-Mb-CBX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4e7-NW-Wfo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Km7-4b-BdB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Start" image="shift.fill" catalog="system" id="fSj-2F-Ujc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rM5-rJ-Q2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="742"/>
         </scene>
         <!--Multiple-->
         <scene sceneID="hdk-qF-f6E">
@@ -135,6 +155,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
+                        <segue destination="ylB-Mb-CBX" kind="relationship" relationship="viewControllers" id="X1w-MB-Bhg"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="PG8-lR-zXd" kind="relationship" relationship="viewControllers" id="KeL-Ve-DCt"/>
@@ -149,5 +170,6 @@
         <image name="circle.lefthalf.fill" catalog="system" width="64" height="60"/>
         <image name="circle.righthalf.fill" catalog="system" width="64" height="60"/>
         <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
+        <image name="shift.fill" catalog="system" width="64" height="52"/>
     </resources>
 </document>

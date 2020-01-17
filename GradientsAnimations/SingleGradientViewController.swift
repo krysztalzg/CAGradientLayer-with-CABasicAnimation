@@ -23,7 +23,7 @@ class SingleGradientViewController: UIViewController {
                 [aqua.cgColor, violet.cgColor],
                 [violet.cgColor, magenta.cgColor]
             ],
-            angle: 45,
+            angle: 15,
             duration: 3
         )
     }()

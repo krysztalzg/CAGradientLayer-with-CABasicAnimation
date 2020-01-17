@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE46955F23D19F1200FA269E /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46955E23D19F1200FA269E /* Slider.swift */; };
 		AEF98BAB23C4BB3600FE3E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAA23C4BB3600FE3E89 /* AppDelegate.swift */; };
 		AEF98BAD23C4BB3600FE3E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BAC23C4BB3600FE3E89 /* SceneDelegate.swift */; };
 		AEF98BB123C4BB3600FE3E89 /* SingleGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF98BB023C4BB3600FE3E89 /* SingleGradientViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE46955E23D19F1200FA269E /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		AEF98BA723C4BB3600FE3E89 /* GradientsAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientsAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF98BAA23C4BB3600FE3E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF98BAC23C4BB3600FE3E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				AEF98BC523C4BCE100FE3E89 /* AnimatedSingleGradientView.swift */,
 				AEF98BC923C4BDEB00FE3E89 /* AnimatedMultipleGradientsView.swift */,
 				AEF98BD123C4C61100FE3E89 /* TextField.swift */,
+				AE46955E23D19F1200FA269E /* Slider.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				AEF98BC423C4BBDE00FE3E89 /* CAGradientLayerExtensions.swift in Sources */,
 				AEF98BAB23C4BB3600FE3E89 /* AppDelegate.swift in Sources */,
 				AEF98BAD23C4BB3600FE3E89 /* SceneDelegate.swift in Sources */,
+				AE46955F23D19F1200FA269E /* Slider.swift in Sources */,
 				AEF98BD023C4C27C00FE3E89 /* UIKitComponentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
