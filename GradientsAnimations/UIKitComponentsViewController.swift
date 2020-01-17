@@ -26,6 +26,7 @@ class UIKitComponentsViewController: UIViewController {
 
         uiView.backgroundColor = .colorWithGradient(frame: uiView.bounds, colors: [aqua, violet], angle: 10)
         uiLabel.textColor = .colorWithGradient(frame: uiView.bounds, colors: [aqua, violet], angle: 10)
+
         uiSlider.addGradientTrack()
     }
 
